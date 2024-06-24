@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>King's Place</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <div class="logo-image">
+          <img src="./images/logo/final_logo.png" alt="" />
+        </div>
+        <div class="logo-text">
+          <h3>Welcome To King's Palace</h3>
+          <div class="social">
+            <a href="http://facebook.com" target="_blank"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a href="http://twitter.com" target="_blank"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+            <a href="http://instagram.com" target="_blank"
+              ><i class="fab fa-instagram fa-2x"></i
+            ></a>
+            <a href="http://youtube.com" target="_blank"
+              ><i class="fab fa-youtube fa-2x"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <form action="process.php">
+            <div class="input-group">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                class="form-control"
+                placeholder="Looking for a Place?..."
+              />
+              <button class="btn btn-info">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </header>
+    <!-- nvagation bar -->
+    <section id="navbar" class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#home">Properties</a></li>
+        <li><a href="#home">About Us</a></li>
+        <li><a href="#home">Concat Us</a></li>
+      </ul>
+    </section>
+
+    <!-- carousel photos -->
+
+    <section id="slider" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/houses/Carousel/1.png" class="d-block" alt="1" />
+          <div class="carousel-caption d-none d-md-block">
+            <h1><span>EXPLORE</span> YOUR FREEDOM!</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/houses/Carousel/2.png" class="d-block" alt="2" />
+          <div class="carousel-caption d-none d-md-block">
+            <h1><span>EXPLORE</span> YOUR FREEDOM!</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/houses/Carousel/3.png" class="d-block" alt="3" />
+          <div class="carousel-caption d-none d-md-block">
+            <h1><span>EXPLORE</span> YOUR FREEDOM!</h1>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+    <!-- book button -->
+
+    <div class="book-btn">
+      <div id="google_translate_element"></div>
+      <div class="rounded-btn">
+        <a href="#contact"><i class="fa fa-phone"> Book Now! </i></a>
+      </div>
+    </div>
+
+    <!-- featured Properties section -->
+
+    <section id="featured" class="mt-5 pb-5">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="text-center">
+            <h1>Featured Places</h1>
+            <p>
+              King's Palace boasts featured places like the elegant Grand
+              Ballroom, a serene rooftop garden with stunning city views, and a
+              state-of-the-art fitness center. Enjoy gourmet dining at the Royal
+              Bistro and unwind at the luxurious spa. Perfect for relaxation and
+              indulgence, these spots enhance your stay, making it truly
+              special.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./images/houses/Kings-Palace/Screenshot_39.png"
+                alt="Card image"
+                style="width: 100%"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">The King's Place</h4>
+                <p class="card-text">
+                  King's Palace is a wonderful place to stay, offering luxurious
+                  accommodations, excellent service, and a prime location. The
+                  rooms are spacious and elegantly decorated, ensuring comfort
+                  and relaxation. Enjoy top-notch amenities, delicious dining
+                  options, and beautiful surroundings. Whether for business or
+                  leisure, King's Palace provides a memorable and delightful
+                  experience. Highly recommended for an unforgettable stay.
+                </p>
+                <a href="#" class="btn btn-info">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./images/houses/Kings-Palace/Screenshot_58.png"
+                alt="Card image"
+                style="width: 100%"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Q-Sands</h4>
+                <p class="card-text">
+                  Q-Sands Resort is a luxurious beachfront haven offering
+                  stunning ocean views and elegant accommodations. Guests can
+                  enjoy an infinity pool, a world-class spa, and gourmet dining
+                  options. The resort features activities like water sports,
+                  yoga, and a kids' club, making it perfect for families and
+                  couples. With exceptional service and serene surroundings,
+                  Q-Sands Resort promises an unforgettable and rejuvenating
+                  escape.
+                </p>
+                <a href="#" class="btn btn-info">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./images/houses/Queen-Sands/Screenshot_74.png"
+                alt="Card image"
+                style="width: 100%"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">King's Pool</h4>
+                <p class="card-text">
+                  King's Pool is a luxurious retreat featuring a stunning
+                  infinity pool with breathtaking panoramic views. Guests can
+                  unwind in private cabanas, enjoy attentive poolside service,
+                  and relax in the tranquil ambiance. The pool area includes a
+                  hot tub, a swim-up bar, and lush landscaping, providing a
+                  perfect setting for leisure and relaxation. Ideal for both
+                  families and couples, King's Pool offers a rejuvenating and
+                  unforgettable experience, making it the ultimate destination.
+                </p>
+                <a href="#" class="btn btn-info">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- video section -->
+
+    <section style="text-align: center">
+      <h1>What Our Guest Has To Say!</h1>
+      <object
+        width="90%"
+        height="1000"
+        data="https://go.screenpal.com/watch/cZ1ZjcV8iaN"
+        type="video/mp4"
+      ></object>
+    </section>
+
+    <!-- About us section -->
+
+    <section id="about" class="about">
+      <div class="why-us">
+        <h1>Why Choose Us</h1>
+        <hr />
+        <p>
+          Welcome to our charming vacation rental! Nestled in a serene location,
+          our house offers a perfect getaway with modern amenities, cozy
+          interiors, and scenic views. Ideal for families and friends, enjoy
+          nearby attractions and create unforgettable memories. Book your stay
+          with us for an exceptional experience!
+        </p>
+      </div>
+      <div class="service">
+        <div class="service-1">
+          <h2>Sustaining Excellence</h2>
+          <p>
+            Sustaining Excellence is our commitment to continuous improvement
+            and superior performance. We prioritize innovation, quality, and
+            customer satisfaction, fostering a culture of integrity and
+            collaboration. Through dedicated efforts and strategic initiatives,
+            we consistently exceed expectations, ensuring long-term success and
+            unparalleled value in everything we do.
+          </p>
+        </div>
+        <div class="service-1">
+          <h2>Customized support</h2>
+          <p>
+            Customized support tailors solutions to meet your unique needs. We
+            offer personalized assistance, ensuring you receive the right
+            guidance and resources. Our dedicated team listens to your
+            requirements, adapts strategies, and provides expert advice,
+            ensuring your success and satisfaction with responsive, flexible,
+            and effective support.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!-- footer section -->
+
+    <section id="footer" class="pt-5 pb-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="./images/logo/final_logo.png" alt="" width="200px" />
+          </div>
+          <div class="col-md-4">
+            <h3>Site Map</h3>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#">Home</a></li>
+              <li class="mb-2"><a href="#">Q-sands</a></li>
+              <li class="mb-2"><a href="#">king's Palace</a></li>
+              <li class="mb-2"><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Search here</h3>
+            <form action="process.php">
+              <div class="input-group">
+                <input
+                  type="text"
+                  name="search"
+                  id="search"
+                  class="form-control"
+                  placeholder="Search Here..."
+                />
+                <button class="btn btn-info">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Copyright 2024 | King's palace and Co.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="social">
+        <a href="http://facebook.com" target="_blank"
+          ><i class="fab fa-facebook fa-2x"></i
+        ></a>
+        <a href="http://twitter.com" target="_blank"
+          ><i class="fab fa-twitter fa-2x"></i
+        ></a>
+        <a href="http://instagram.com" target="_blank"
+          ><i class="fab fa-instagram fa-2x"></i
+        ></a>
+        <a href="http://youtube.com" target="_blank"
+          ><i class="fab fa-youtube fa-2x"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script>
+      // Smooth Scrolling
+      $("#navbar a, .btn").on("click", function (e) {
+        if (this.hash !== "") {
+          e.preventDefault();
+
+          const hash = this.hash;
+
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800
+          );
+        }
+      });
+    </script>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- google translate -->
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: "en" },
+          "google_translate_element"
+        );
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit"
+    ></script>
+  </body>
+</html>

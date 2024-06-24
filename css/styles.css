@@ -1,0 +1,281 @@
+:root {
+  --primary-color: #10439f;
+  --secondary-color: #874ccc;
+  --dark-shade: #c65bcf;
+  --light-shade: #f27bbd;
+  --background: #e7f0dc;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  background: var(--background);
+  /* border: black 2px solid; */
+  align-items: center;
+  padding: 10px 50px;
+  box-shadow: 0 0 30px var(--primary-color);
+}
+.logo .social a {
+  color: var(--primary-color);
+}
+.logo .social a:hover {
+  color: var(--secondary-color);
+}
+.logo img {
+  width: 150px;
+  height: 150px;
+}
+
+.logo-text h3 {
+  color: var(--primary-color);
+  padding: 10px;
+  font-size: 40px;
+  text-shadow: 0 0 30px var(--secondary-color);
+}
+header .col-md-4 {
+  margin-left: 500px;
+  box-shadow: 0 0 10px var(--primary-color);
+}
+
+.btn {
+  background: var(--primary-color);
+  width: 150px;
+  color: white;
+  padding: 10px;
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  margin: auto;
+  margin-top: 0;
+  width: 100%;
+  justify-content: center;
+  margin-top: 15px;
+  background: var(--primary-color);
+  padding: 30px;
+  box-shadow: 0 0 0 10px var(--primary-color);
+}
+
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  margin: 25px;
+  font-size: 23px;
+  color: white;
+}
+.carousel-inner img {
+  margin: auto;
+  width: 100%;
+  height: 70vh;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 5px;
+}
+.card:hover {
+  border: var(--primary-color) 2px solid;
+
+  transform: scale(1.1);
+  transition: All 0.5s ease-in-out;
+}
+.card-body {
+  background: var(--background);
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 50px;
+}
+#featured p {
+  font-size: 20px;
+  margin: 20px;
+  font-weight: 400;
+}
+#about hr {
+  width: 300px;
+  justify-content: center;
+  margin: auto;
+  border: var(--primary-color) 2px solid;
+}
+.why-us p {
+  text-align: center;
+  margin: 10px 25% 40px 25%;
+  padding: 5px;
+  font-size: 25px;
+}
+.service {
+  background: var(--background);
+  display: flex;
+  text-align: center;
+  border-radius: 30% 30% 0 0;
+  box-shadow: 0 0 20px var(--primary-color);
+}
+.service-1 {
+  padding: 10px;
+  margin: 20px;
+}
+.service-1 h2 {
+  color: rgb(12, 12, 12);
+  font-weight: 600;
+  font-size: 45px;
+}
+.service-1 p {
+  font-size: 20px;
+  margin: 20px;
+  font-weight: 400;
+}
+.service-2 {
+  margin: 20px;
+  text-align: center;
+}
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+footer {
+  background: var(--primary-color);
+  padding: 25px;
+}
+.col-md-12 p {
+  color: white;
+  font-size: 20px;
+}
+.social {
+  justify-content: center;
+  text-align: center;
+  padding: 8px;
+}
+.social a {
+  padding: 10px;
+  color: white;
+}
+.social a:hover {
+  color: var(--secondary-color);
+  transition: 0.5s;
+}
+#footer {
+  background: var(--background);
+  box-shadow: 0 0 20px var(--primary-color);
+}
+object {
+  margin-top: 20px;
+  box-shadow: 0 0 20px var(--primary-color);
+  border-radius: 30px;
+}
+
+.book-btn {
+  position: fixed;
+  bottom: 200px;
+  right: 20px;
+  padding: 20px;
+}
+.rounded-btn {
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 15px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+.rounded-btn a {
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+}
+.rounded-btn:active {
+  scale: 0.92;
+}
+
+.rounded-btn a:hover {
+  background: rgb(2, 29, 78);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 29, 78, 0.681) 0%,
+    rgba(31, 215, 232, 0.873) 60%
+  );
+  color: rgb(4, 4, 38);
+}
+.carousel-caption h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 100px;
+  text-shadow: #080808 0 0 30px;
+}
+.carousel-caption h1 span {
+  color: var(--primary-color);
+  font-size: 150px;
+  text-shadow: #ddd 0 0 30px;
+}
+.navbar a {
+  padding: 8px 20px;
+  width: 40px;
+  position: relative;
+  height: 3.5em;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.navbar a::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: var(--primary-color);
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.navbar a::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: var(--primary-color);
+  transition: 0.5s;
+}
+
+.navbar a:hover::before,
+.navbar a:hover::after {
+  transform: scale(0);
+}
+
+.navbar a:hover {
+  box-shadow: inset 0px 0px 25px #1479ea;
+}
+
+#google_translate_element {
+  margin-bottom: 30px;
+  font-size: 10px;
+}
